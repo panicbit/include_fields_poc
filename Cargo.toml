@@ -1,0 +1,10 @@
+[package]
+name = "include_fields"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+include_fields_macro = { path = "include_fields_macro" }
+
+[workspace]
+members = ["include_fields_macro"]
